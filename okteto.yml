@@ -1,0 +1,13 @@
+build:
+ codigyx:  # cambiar por su namespace de okteto
+   image: okteto.dev/codigyx:latest  # cambiar por su namespace de okteto
+
+deploy:
+ - okteto build # build the image with the latest code
+ - kubectl apply -f manifests # create all the resources in kubernetes
+dev:
+ codigyx:
+   command: bash
+   sync:
+   - .:/hackernews   # cambiar por su proyecto
+
