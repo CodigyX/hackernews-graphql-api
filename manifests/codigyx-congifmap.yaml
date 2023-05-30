@@ -5,7 +5,7 @@ metadata:
  labels:
    app: postgres
 data:
- PROD_SECRET_KEY: Yogurberry
+ PROD_SECRET_KEY: YogurBerry
  PROD_DATABASE: vzkkrtlg
  PROD_USER: vzkkrtlg
  PROD_PASSWORD: vacnSb_QyGcdh6ZHsqetPUhGX9G-z9Gr
