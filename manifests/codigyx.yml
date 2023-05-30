@@ -17,7 +17,7 @@ spec:
         name: codigyx
         envFrom:
           - configMapRef:
-        name: codigyx-configmap
+        name: codigyx-config
         livenessProbe:
           httpGet:
             path: /ht/
