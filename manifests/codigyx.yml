@@ -16,8 +16,8 @@ spec:
       - image: okteto.dev/codigyx:latest
         name: codigyx
         envFrom:
-          - configMapRef:
-        name: codigyx-config
+        - configMapRef:
+            name: codigyx-config
         livenessProbe:
           httpGet:
             path: /ht/
