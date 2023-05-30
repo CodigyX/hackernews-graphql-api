@@ -5,10 +5,10 @@ metadata:
  labels:
    app: postgres
 data:
- PROD_SECRET_KEY: adsoftsito-dev
- PROD_DATABASE: ***
- PROD_USER: ***
- PROD_PASSWORD: ****
- PROD_HOST: ****
+ PROD_SECRET_KEY: Yogurberry
+ PROD_DATABASE: vzkkrtlg
+ PROD_USER: vzkkrtlg
+ PROD_PASSWORD: vacnSb_QyGcdh6ZHsqetPUhGX9G-z9Gr
+ PROD_HOST: isilo.db.elephantsql.com
  PROD_PORT: "5432"
 
